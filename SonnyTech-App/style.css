@@ -1,0 +1,83 @@
+:root{
+    --color: #ff6734;
+    --white: #fff;
+    --black: #1c2b2d;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+    --twitter:  hsl(207, 93%, 46%);
+    --fb:hsl(221, 89%, 41%);
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: cursive;
+  }
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+  }
+.nav-color{
+    background-color: var(--white) !important;
+    border-bottom: 3px solid var(--twitter);
+}
+.btn-primary{
+    background-color: var(--twitter) !important;
+    border-color: var(--twitter) !important;
+    box-shadow: none !important;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    transform: scale(1.05);
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+.fa-bars{
+    font-size: 2rem;
+}
+
+
+
+/* FLOATING BUTTON*/
+#btnScroll{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    background: hsl(240, 65%, 54%);
+    color: #fff;
+    border: 1px solid hsl(240, 65%, 54%);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+}
+#btnScroll:active{
+    background: hsl(240, 82%, 57%);
+}
+
+body{
+    font-family: sans-serif;
+}
+a.navbar-brand {
+    font-size: 2rem;
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+@media (min-width:768px){
+    
+}
